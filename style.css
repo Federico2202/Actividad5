@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient( aquamarine ,green);
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    padding: 1em;
+    background: linear-gradient(white, gray) ;
+    justify-content: space-between;
+    grid-area: header;
+    display: flex;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+
+header h3{
+    text-transform: capitalize;
+    font-size: 2em;
+    margin: 0;
+    margin-left: 5em;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+    font-size: 1em;
+}
+
+header ul li a{
+    color: red;
+    font-weight: bolder;
+    margin-left: 1em; 
+}
+
+h1{
+    font-size: 2em;
+    color: whitesmoke;
+}
+h2{
+    font-size: 2em;
+
+}
+h3{
+    font-size: 2em;
+
+}
+section{
+    margin-bottom: 2em;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(white, gray) ;
+}
+footer a{
+    text-decoration: none;
+    margin: 0 1em 0 1em;
+    color: red;
+}
